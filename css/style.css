@@ -570,7 +570,7 @@ main {
 }
 
 .hero-img__list {
-  backdrop-filter: blur(37px);
+  backdrop-filter: blur(17px);
   position: absolute;
   width: calc(100% - 48px);
   left: 50%;
