@@ -1266,6 +1266,7 @@ main {
 .location__link a {
   text-align: center;
   width: 100%;
+  padding: 25px 20px;
 }
 
 .reviews {
@@ -1443,6 +1444,12 @@ main {
   color: #818181;
   line-height: 150%;
   font-size: 16px;
+}
+
+.information-content__button button {
+  padding: 25px 20px;
+  max-width: 350px;
+  width: 100%;
 }
 
 .residential {
@@ -1645,6 +1652,7 @@ main {
 .residential-item__link a {
   width: 100%;
   text-align: center;
+  font-weight: 600;
 }
 
 .page {
@@ -2143,7 +2151,7 @@ form .form-group label {
 form .form-group input {
   font-size: 16px;
   width: 100%;
-  padding: 15px 50px 15px 20px;
+  padding: 27px 50px 27px 20px;
   font-size: clamp(1rem, 0.9085rem + 0.3902vw, 1.25rem);
   border-radius: 10px;
   -webkit-transition: all 0.3s ease 0s;
@@ -3107,6 +3115,7 @@ form .form-group p a {
 
   .large-title h1 {
     padding: 0px 40px;
+    width: 100%;
   }
 
   .large-title h1::before,
@@ -3277,6 +3286,11 @@ form .form-group p a {
 
   .location__address p {
     font-size: 16px;
+    text-align: left;
+  }
+
+  .location__link {
+    margin: 0;
   }
 
   .reviews__item {
@@ -3308,6 +3322,7 @@ form .form-group p a {
   .residential-item__link a {
     display: block;
     text-align: center;
+    padding: 15px 20px;
   }
 
   .video-popup__close {
@@ -3319,6 +3334,11 @@ form .form-group p a {
 
   .form-popup {
     padding: 0;
+  }
+
+  form .form-group input {
+    padding: 22px 50px 22px 20px;
+    font-size: 14px;
   }
 
   .form-popup__form {
