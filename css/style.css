@@ -3388,6 +3388,16 @@ form .form-group p a {
   }
 }
 
+@media (max-width: 360px) {
+  .hero-content__text p {
+    font-size: 14px;
+  }
+
+  .hero-video__button {
+    top: 48%;
+  }
+}
+
 @media (max-width: 350px) {
   .hero-img__list {
     padding: 20px;
