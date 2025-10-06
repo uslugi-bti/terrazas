@@ -798,10 +798,13 @@ main {
 .description-content__text p {
   color: #818181;
   font-size: 16px;
+  line-height: 150%;
 }
 
 .description-content__button button {
   background-color: #d86b00;
+  max-width: 350px;
+  width: 100%;
 }
 
 .amenities {
@@ -2569,6 +2572,10 @@ form .form-group p a {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+  }
+
+  .description-content__title h2 {
+    font-family: "Onest", sans-serif;
   }
 
   .description__img {
