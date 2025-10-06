@@ -3374,6 +3374,12 @@ form .form-group p a {
   .footer__span a {
     font-size: 14px;
   }
+
+  .footer__span.info {
+    max-width: 343px;
+    margin: 0 auto;
+    font-weight: 400;
+  }
 }
 
 @media (max-width: 465px) {
